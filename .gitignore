@@ -1,0 +1,22 @@
+.venv
+.env
+
+env/
+venv/
+ENV/
+env.bak
+venv.bak
+
+__pycache__/
+__pypackages__/
+*.py[cod]
+*.py.class
+
+# Jupyter NBs
+.ipynb_checkpoints
+
+build/
+dist/
+
+lib/
+lib64/

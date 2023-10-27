@@ -1,0 +1,13 @@
+{
+    "name": "PDF_AI",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    
+    "customizations": {
+        "vscode": {
+            "extensions": ["streetsidesoftware.code-spell-checker"]
+        }
+    },
+    "forwardPorts": [3000,5000],
+    "postCreateCommand": "pip install -r src/requirements.txt"
+}
+
