@@ -7,7 +7,6 @@
             "extensions": ["streetsidesoftware.code-spell-checker"]
         }
     },
-    "forwardPorts": [3000,5000],
-    "postCreateCommand": "pip install -r src/requirements.txt"
+    "forwardPorts": [3000,5000]
 }
 
